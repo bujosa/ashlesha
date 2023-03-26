@@ -1,6 +1,7 @@
 # Ashlesha
 
-This is a simple project for undestading and practice the Diamond Proxy, ERC-2535.
+This is a simple project for undestading and practice the Diamond Proxy, ERC-2535
+and practice using anvil for local node.
 
 ## Documentation
 
