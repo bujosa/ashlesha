@@ -2,13 +2,13 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../src/Counter.sol";
+import "@contracts/facets/CounterFacet.sol";
 
-contract CounterTest is Test {
-    Counter public counter;
+contract CounterFacetTest is Test {
+    CounterFacet public counter;
 
     function setUp() public {
-        counter = new Counter();
+        counter = new CounterFacet();
         counter.setNumber(0);
     }
 
